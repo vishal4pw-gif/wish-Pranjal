@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>निखिल वेड्स सान्या – शादी का निमंत्रण</title>
+<link href="https://fonts.googleapis.com/css2?family=Yatra+One&family=Hind:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--night:#0e1230;--blue:#14245a;--maroon:#5a0f24;--gold:#d9a441;--ivory:#fbf0d9;--box-sizing:border-box;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root{--night:#0e1230}}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--night);color:var(--ivory);font-family:'Hind',system-ui,sans-serif;line-height:1.7;overflow-x:hidden}
+h1,h2,h3{font-family:'Yatra One','Hind',serif;font-weight:400;color:var(--gold);margin:0}
+section{max-width:520px;margin:0 auto;padding:56px 22px;text-align:center}
+.hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;align-items:center;position:relative;max-width:none;
+background:radial-gradient(ellipse at 50% 100%,var(--maroon),transparent 65%),linear-gradient(var(--night),var(--blue));overflow:hidden}
+.star{position:absolute;width:3px;height:3px;background:#fff;border-radius:50%;opacity:.7;animation:tw 3s infinite alternate}
+@keyframes tw{to{opacity:.1}}
+.lantern{position:absolute;bottom:-60px;width:26px;height:34px;border-radius:40% 40% 30% 30%;background:linear-gradient(#ffcf6b,#e07a1f);box-shadow:0 0 24px 8px rgba(255,170,60,.45);animation:up linear infinite}
+@keyframes up{to{transform:translateY(-115svh) translateX(20px)}}
+.palace{width:min(340px,86%);margin-top:18px}
+.ganesh{font-size:1.05rem;letter-spacing:.04em}
+.hero h1{font-size:clamp(2.3rem,11vw,3.6rem);line-height:1.15;margin:8px 0}
+.amp{color:var(--ivory);font-size:.55em;display:block}
+.tag{border:1px solid var(--gold);padding:4px 16px;border-radius:99px;color:var(--gold);margin-top:10px}
+.scroll{margin-top:22px;width:22px;height:36px;border:2px solid var(--gold);border-radius:12px;position:relative}
+.scroll::after{content:"";position:absolute;left:8px;top:6px;width:4px;height:8px;background:var(--gold);border-radius:3px;animation:sc 1.6s infinite}
+@keyframes sc{to{transform:translateY(12px);opacity:0}}
+.frame{border:2px solid var(--gold);outline:1px solid var(--gold);outline-offset:6px;border-radius:6px;padding:30px 18px;background:var(--maroon);
+background-image:radial-gradient(circle at 1px 1px,rgba(217,164,65,.22) 1px,transparent 0);background-size:14px 14px}
+.frame p{margin:.5em 0}.frame strong{font-family:'Yatra One','Hind',serif;font-weight:400;font-size:1.7rem;color:var(--gold)}.orn{color:var(--gold);letter-spacing:.12em;font-size:1.1rem}.lead{font-family:'Yatra One','Hind',serif;color:var(--gold);font-size:1.2rem}.date{display:inline-block;margin-top:8px;padding:6px 18px;border:1px solid var(--gold);border-radius:99px;color:var(--gold)}.sc-label{font-family:'Yatra One','Hind',serif;color:var(--gold);font-size:1.5rem;margin-top:22px}.arrow{color:var(--gold);font-size:1.6rem;line-height:1;animation:bob .9s infinite alternate}@keyframes bob{to{transform:translateY(9px)}}.hero .palace{width:min(230px,60%);margin-top:22px}.hint{font-size:.9rem;opacity:.75;margin-top:10px}.div{max-width:320px;margin:0 auto 22px;display:flex;align-items:center;gap:12px;color:var(--gold);font-size:1.2rem}.div::before,.div::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--gold))}.div::after{transform:scaleX(-1)}.hero h1,section h2{background:linear-gradient(110deg,#b8862b 20%,#fff2b8 45%,#b8862b 70%);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sh 4s linear infinite}@keyframes sh{to{background-position:-220% 0}}#std{display:none;margin-top:16px;padding:12px 26px;text-decoration:none}.made{margin-top:14px;font-size:.95rem}.made a{color:var(--gold);text-decoration:none;font-weight:600}@media (prefers-reduced-motion:reduce){.hero h1,section h2{animation:none}.arrow{animation:none}}.scratch{box-shadow:0 0 0 4px var(--maroon),0 0 0 6px var(--gold),0 0 28px rgba(217,164,65,.45)}
+.scratch{position:relative;width:min(300px,100%);height:150px;margin:20px auto 0;border-radius:10px;overflow:hidden;background:var(--ivory);color:var(--maroon);display:flex;flex-direction:column;justify-content:center;border:2px solid var(--gold)}
+.scratch b{font-family:'Yatra One',serif;font-size:2rem;font-weight:400}
+.scratch canvas{position:absolute;inset:0;width:100%;height:100%;touch-action:none;transition:opacity .8s}
+#confetti{position:fixed;inset:0;pointer-events:none;z-index:20}
+.event{background:var(--blue);border:1px solid var(--gold);border-radius:10px;padding:18px;margin:16px 0;text-align:left;display:grid;grid-template-columns:64px 1fr;gap:14px;align-items:center}
+.event .ic{width:64px;height:64px;border-radius:50%;background:var(--maroon);display:grid;place-items:center;font-size:2rem;border:1px solid var(--gold)}
+.event h3{font-size:1.3rem}.event em{display:block;opacity:.8;font-size:.95rem}
+.event small{display:block;margin-top:4px;font-size:.95rem}
+.cd{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:18px}
+.cd div{background:var(--maroon);border:1px solid var(--gold);border-radius:8px;padding:12px 0}
+.cd b{display:block;font-family:'Yatra One',serif;font-size:1.9rem;font-weight:400;color:var(--gold)}
+.btns{display:grid;gap:12px;margin-top:20px}
+.btn{display:block;padding:14px;border-radius:99px;text-decoration:none;font-weight:600;background:var(--gold);color:var(--maroon)}
+.btn.alt{background:transparent;color:var(--gold);border:1.5px solid var(--gold)}
+.btn.wa{background:#25a244;color:#fff}
+.btn:focus-visible,#mus:focus-visible{outline:3px solid #fff;outline-offset:3px}
+#mus{position:fixed;right:14px;top:calc(14px + env(safe-area-inset-top,0px));z-index:30;width:46px;height:46px;border-radius:50%;border:1.5px solid var(--gold);background:var(--maroon);color:var(--gold);font-size:1.2rem;cursor:pointer}
+footer{padding:30px 22px calc(40px + env(safe-area-inset-bottom,0px));text-align:center;opacity:.75}
+@media (prefers-reduced-motion:reduce){.lantern,.star,.scroll::after{animation:none}html{scroll-behavior:auto}}
+.hero .palace{display:none}.event{display:block;padding:0;overflow:hidden}.event img{width:100%;aspect-ratio:1/1;object-fit:cover;object-position:center 35%;display:block;border-bottom:2px solid var(--gold)}.event .tx{padding:16px 18px 18px;text-align:center}.couple{width:80%;max-width:300px;aspect-ratio:1/1;object-fit:cover;object-position:center 20%;border-radius:200px 200px 14px 14px;border:3px solid var(--gold);margin:14px auto;display:block;box-shadow:0 0 24px rgba(217,164,65,.4)}
+</style>
+</head>
+<body>
+<button id="mus" aria-label="संगीत चालू/बंद करें">♪</button>
+<canvas id="confetti"></canvas>
+
+<header class="hero" id="top">
+  <div id="sky"></div>
+  <div class="ganesh">॥ श्री गणेशाय नमः ॥</div>
+  <h1>निखिल<span class="amp">weds</span>सान्या</h1>
+  <div class="tag">#NikhilWedsSanya</div>
+  <div class="sc-label">स्क्रैच करो</div><div class="arrow" aria-hidden="true">▼</div>
+  <div class="scratch" id="sc">
+    <span>शादी की तारीख</span><b>14 फरवरी 2027</b><span>रविवार</span>
+    <canvas id="cv" aria-label="स्क्रैच कार्ड"></canvas>
+  </div>
+  <a class="btn" id="std" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Nikhil+weds+Sanya+Wedding&dates=20270214T170000Z/20270214T190000Z&location=Jaipur">📅 Save the Date</a>
+  <svg class="palace" viewBox="0 0 340 150" aria-hidden="true">
+    <g fill="#5a0f24" stroke="#d9a441" stroke-width="1.5">
+      <rect x="20" y="90" width="300" height="58"/>
+      <rect x="130" y="50" width="80" height="98"/>
+      <path d="M130 50 Q170 0 210 50Z"/><path d="M20 90 Q45 50 70 90Z"/><path d="M270 90 Q295 50 320 90Z"/>
+      <path d="M150 148 V112 Q170 90 190 112 V148Z" fill="#0e1230"/>
+    </g>
+    <g fill="#d9a441"><circle cx="170" cy="12" r="3"/><circle cx="45" cy="56" r="2.5"/><circle cx="295" cy="56" r="2.5"/>
+    <rect x="60" y="108" width="12" height="18" rx="6"/><rect x="95" y="108" width="12" height="18" rx="6"/><rect x="233" y="108" width="12" height="18" rx="6"/><rect x="268" y="108" width="12" height="18" rx="6"/></g>
+  </svg>
+  <div class="hint">निमंत्रण देखने के लिए नीचे स्क्रॉल करें ↓</div>
+</header>
+
+<section>
+  <div class="div" aria-hidden="true">❖ ✿ ❖</div><h2>✦ शुभ निमंत्रण ✦</h2>
+  <div class="frame" style="margin-top:20px"><div class="orn">❖ ━━━ ✿ ━━━ ❖</div><img id="couple" class="couple" alt="निखिल और सान्या"><p class="lead">हमारे आँगन में खुशियों की बारात आ रही है</p>
+    <p>श्रीमती सुनीता एवं श्री राजेश शर्मा<br>के सुपुत्र <strong>निखिल</strong></p>
+    <p>का शुभ विवाह</p>
+    <p>श्रीमती मीना एवं श्री अनिल वर्मा<br>की सुपुत्री <strong>सान्या</strong></p>
+    <p>के साथ तय हुआ है।<br>आप सपरिवार पधारकर वर-वधू को आशीर्वाद दें।</p>
+    <div class="date">14 फरवरी 2027 · जयपुर, राजस्थान</div><div class="orn" style="margin-top:12px">❖ ━━━ ✿ ━━━ ❖</div>
+  </div>
+</section>
+
+
+<section>
+  <div class="div" aria-hidden="true">❖ ✿ ❖</div><h2>कार्यक्रम</h2>
+  <div id="events"></div>
+</section>
+
+<section>
+  <div class="div" aria-hidden="true">❖ ✿ ❖</div><h2>हमारे हमेशा तक</h2>
+  <div class="cd" id="cd"><div><b>0</b>दिन</div><div><b>0</b>घंटे</div><div><b>0</b>मिनट</div><div><b>0</b>सेकंड</div></div>
+</section>
+
+<section>
+  <div class="div" aria-hidden="true">❖ ✿ ❖</div><h2>आइए, साथ मनाएँ</h2>
+  <div class="btns">
+    <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Jaipur+Palace+Wedding+Venue">📍 वेन्यू का रास्ता देखें</a>
+    <a class="btn alt" href="tel:+919999999999">📞 आयोजकों को कॉल करें</a>
+    <a class="btn wa" target="_blank" rel="noopener" href="https://wa.me/919999999999?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%21%20%E0%A4%AE%E0%A5%88%E0%A4%82%20%E0%A4%A8%E0%A4%BF%E0%A4%96%E0%A4%BF%E0%A4%B2%20%E0%A4%B5%E0%A5%87%E0%A4%A1%E0%A5%8D%E0%A4%B8%20%E0%A4%B8%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%BE%20%E0%A4%95%E0%A5%87%20%E0%A4%B8%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A5%8B%E0%A4%B9%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%86%E0%A4%8A%E0%A4%81%E0%A4%97%E0%A4%BE%2F%E0%A4%86%E0%A4%8A%E0%A4%81%E0%A4%97%E0%A5%80%E0%A5%A4">💬 WhatsApp पर RSVP करें</a>
+  </div>
+</section>
+<footer>दर्शनाभिलाषी: शर्मा एवं वर्मा परिवार<br>#NikhilWedsSanya<div class="div" style="margin-top:18px" aria-hidden="true">❖</div><div class="made">Made with ❤ by <a href="https://wa.me/919999999999?text=Mujhe+apne+wedding+ke+liye+digital+invitation+banwana+hai" target="_blank" rel="noopener">Your Agency Name</a><br>ऐसा इन्विटेशन चाहिए? WhatsApp करें</div></footer>
+
+<script>
+const IMG={"ev": ["data:image/jpeg;base64,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
